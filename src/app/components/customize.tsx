@@ -19,7 +19,7 @@ export default function Customize() {
               save web pages or take screenshots as notes.
             </p>
             <button className="rounded-lg w-full md:w-[172px] h-[63px] text-[16px] md:text-[18px] py-[20px] bg-[#4F9CF9] text-white px-[40px] leading-[23px] tracking-[-0.02em] flex items-center justify-center gap-3 mt-[60px] md:mt-[75px]">
-              Let's Go
+              Let&apos;s Go {/* Escaping the apostrophe */}
               <Image src={Icon} alt="Icon" />
             </button>
           </div>
@@ -49,7 +49,7 @@ export default function Customize() {
               plugins using the Extension API.
             </p>
             <button className="rounded-lg w-full md:w-[180px] h-[63px] py-[20px] px-[40px] text-[16px] md:text-[18px] bg-[#4F9CF9] text-white leading-[23px] tracking-[-0.02em] flex items-center justify-center gap-3 mt-[60px] md:mt-[75px]">
-              Let's Go
+              Let&apos;s Go {/* Escaping the apostrophe */}
               <Image src={Icon} alt="Icon" />
             </button>
           </div>

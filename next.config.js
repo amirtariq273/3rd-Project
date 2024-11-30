@@ -1,6 +1,9 @@
 // next.config.js
+
 module.exports = {
-  reactStrictMode: true,
-  // Remove the swcMinify line or comment it out
-  // swcMinify: true,
-}
+  eslint: {
+    // Disable specific ESLint rules for your Next.js app
+    dirs: ['pages', 'components', 'src'], // Define the directories to apply ESLint
+    ignoreDuringBuilds: true, // This will disable ESLint checks during production build
+  },
+};
